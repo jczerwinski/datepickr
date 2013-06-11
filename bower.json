@@ -1,0 +1,5 @@
+{
+  "name": "datepickr",
+  "version": "0.2.1",
+  "main": ["datepickr.js", "datepickr.css"]
+}
