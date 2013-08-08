@@ -62,8 +62,10 @@
 						break;
 						case 'day':
 							this.element.value = formatDate(new Date(this.currentYearView, this.currentMonthView, e.target.innerHTML).getTime(), this.config);
+							if ($) {
+								$(this.element).change();
+							}
 							this.close();
-							this.element.onchange();
 						break;
 					}
 				}
