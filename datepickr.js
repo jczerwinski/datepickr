@@ -63,6 +63,7 @@
 						case 'day':
 							this.element.value = formatDate(new Date(this.currentYearView, this.currentMonthView, e.target.innerHTML).getTime(), this.config);
 							this.close();
+							this.element.onchange();
 						break;
 					}
 				}
